@@ -1,0 +1,43 @@
+
+section#HospitalCard {
+    background-image: url(../../images/Our_Doctors/img11.png);
+   background-position: cover;
+   padding: 25px 0px;
+}
+section#HospitalCard h1{ 
+   padding: 25px 0px;
+   color: #006CBE;
+   font-family: sans-serif;
+   font-weight: bold;
+}
+
+
+
+
+img.img-fluid {
+    height: 100% !important;
+}
+button.btn.btn-primary.btn-sm {
+    margin-right: 15px;
+    padding: 18px 13px;
+}
+.card {
+    /* position: relative; */
+    border-radius: 16px;
+    /* background: linear-gradient(180deg,#034ea1 0,#00b7ac 100%); */
+    background-clip: padding-box;
+    padding: 2px 10px 2px 2px;
+    margin-bottom: 33px;
+    transition: 1s;
+}
+button.Book.btn.btn-primary {
+    font-size: 13px !important;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+button.Book.btn.btn-primary:hover {
+  background-color: #00B7AC;
+}
+button.View.btn.btn-primary.btn-sm:hover{
+    background-color: #006CBE !important;
+}

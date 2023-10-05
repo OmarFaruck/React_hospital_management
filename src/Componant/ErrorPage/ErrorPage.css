@@ -1,0 +1,6 @@
+.error_page {
+    background-image: url('/src/Componant/images/Team/error.webp'); 
+    background-attachment: fixed;
+    background-position: center;  
+   min-height: 350px;
+}

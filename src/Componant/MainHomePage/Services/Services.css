@@ -1,0 +1,19 @@
+section#service {
+    margin-top: 40px;
+}
+section#service h1{ 
+    font-size: 40px;
+    font-weight: 800;
+    font-family: loto;
+}
+section#service p{ 
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: loto;
+}
+section#service h2{ 
+    font-size: 40px;
+    font-weight: 800;
+    font-family: loto;
+}

@@ -1,0 +1,23 @@
+section#Paramedical {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px 0px, rgba(0, 0, 0, 0.19) 0px 4px 20px 0px;
+    text-align: center;
+}
+
+.container-fluid.Paramedical {
+    padding: 30px 0px;
+}
+section#Paramedical .text-center.Ganesh h1{
+    font-family: sans-serif;
+    font-weight: 600; 
+}
+section#Paramedical .text-center.Ganesh h3{
+    font-family: sans-serif;
+    font-weight: 500; 
+}
+section#Paramedical span {
+    font-size: 22px;
+    font-weight: 700;
+}
+

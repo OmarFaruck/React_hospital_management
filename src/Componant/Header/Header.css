@@ -1,0 +1,49 @@
+a.nav-link {
+    /* padding: 22px 15px; */
+    font-size: 18px;
+    font-family: ui-sans-serif;
+    font-weight: 700;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+
+ }
+@media (min-width: 375px) and (max-width: 425px) { 
+
+ }
+@media (min-width: 375px) and (max-width: 425px) {
+    section#service h1 {
+        font-size: 21px !important;
+    }
+ }
+@media (min-width: 425px) and (max-width: 768px) { 
+    section#service h1 {
+        font-size: 20px !important;
+    }
+    a.nav-link {
+        font-size: 14px !important;
+    }
+ }
+@media (min-width: 768px) and (max-width: 1024px) {
+    a.nav-link {
+        font-size: 14px !important;
+    }
+    section#Packege p {
+        font-size: 13px !important; 
+    }
+    section#patient_blog p {
+        font-size: 13px !important; 
+        /* color: #B2633D !important; */
+    }
+    section#Paramedical .text-center.Ganesh h1 {
+        font-size: 28px !important; 
+    }
+ }
+@media (min-width: 1024px) and (max-width: 1200px) { 
+    a.nav-link {
+        font-size: 14px !important;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+ }

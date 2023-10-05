@@ -1,0 +1,26 @@
+@media (min-width: 320px) and (max-width: 375px) {
+
+
+ }
+@media (min-width: 375px) and (max-width: 425px) { 
+
+}
+@media (min-width: 375px) and (max-width: 425px) { 
+
+ }
+@media (min-width: 425px) and (max-width: 768px) { 
+
+}
+@media (min-width: 768px) and (max-width: 1024px) { 
+    .mx-auto.mb-3.cards.card {
+        width: 13rem !important;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px) { 
+    .mx-auto.mb-3.cards.card {
+        width: 15rem !important;
+    }
+ }
+@media (min-width: 1200px) and (max-width: 1440px) { 
+    
+}

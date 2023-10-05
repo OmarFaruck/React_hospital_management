@@ -1,0 +1,39 @@
+section#COURSES {
+    margin: 30px 0px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+    h1.RADIOLOGY {
+        font-size: 21px !important;
+    }
+    h1.ABOUT {
+        font-size: 19px !important;
+        line-height: 30px;
+    }
+    section#courses h2 {
+        font-size: 16px !important;
+    }
+    section#Prominent h2 {
+        font-size: 22px !important; 
+    }
+ }
+@media (min-width: 375px) and (max-width: 425px) {
+
+}
+@media (min-width: 375px) and (max-width: 425px) {
+
+ }
+@media (min-width: 425px) and (max-width: 768px) {
+
+ }
+@media (min-width: 768px) and (max-width: 1024px) { 
+
+}
+@media (min-width: 1024px) and (max-width: 1200px) { 
+
+ }
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+ }

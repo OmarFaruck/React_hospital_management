@@ -1,0 +1,24 @@
+
+section#patient_blog {
+    background-color: rgba(0, 0, 0, 0.349) !important;
+    background-image: url(../../images/blog/Hospitality.webp);
+    
+}
+section#patient_blog::before {
+    background-color: black;
+    margin-top: 25px;
+    padding-top: 20px;
+
+}
+ 
+section#patient_blog span {
+    font-size: 35px;
+    color: #B2633D;
+    font-weight: 700;
+}
+section#patient_blog p {
+    font-size: 18px;
+    color: #000;
+    font-weight: 800;
+    font-family: sans-serif;
+}

@@ -1,0 +1,107 @@
+section#topber {
+    background-color: #00BCD1;
+    padding: 22px; 
+}
+section#topber h6 {
+    color: white;
+}
+svg.email {
+    color: white;
+    font-size: 30px;
+    margin: 0px 12px;
+}
+svg.phone {
+    color: white;
+    font-size: 25px;
+}
+h6.phn {
+    margin: 0px 9px;
+}
+button.login.btn.btn-primary {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* media quiry */
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .text-center.d-flex {
+        display: grid !important;
+    }
+    svg.phone {
+        margin: 10px 0px;
+        margin-left: 58%; 
+    }
+    svg.email {
+        margin: 15px 0px;
+        margin-left: 40%;
+    }
+    section#topber h6 { 
+        margin-left: 57px; 
+    }
+    section#service h1 {
+        font-size: 0px !important; 
+    }
+    section#Paramedical .text-center.Ganesh h1 ,h3{
+        font-size: 18px !important; 
+    }
+    section#Certification h3 {
+        font-size: 16px !important; 
+    }
+    /* *********home page end************ */
+    
+ }
+@media (min-width: 375px) and (max-width: 425px) {
+    .text-center.d-flex {
+        display: flex !important;
+    }
+    svg.phone {
+        margin: 0px 0px;
+        margin-left: 0%; 
+    }
+    svg.email {
+        margin: 0cm 0px;
+        /* margin-left: 40%; */
+    }
+    section#topber h6 { 
+        margin-left: 0px; 
+    }
+    section#service h1 {
+        font-size: 0px !important; 
+    }
+    section#Paramedical .text-center.Ganesh h1 ,h3{
+        font-size: 18px !important; 
+    }
+    section#Certification h3 {
+        font-size: 16px !important; 
+    }
+    .text-center.d-flex.align-items-center {
+        margin: 10px 0px;
+    }
+ }
+@media (min-width: 375px) and (max-width: 425px) {
+
+ }
+@media (min-width: 425px) and (max-width: 768px) { 
+    section#service h1 {
+        font-size: 25px !important;  
+    }
+    section#service p {
+        font-size: 17px !important; 
+    }
+    section#Paramedical .text-center.Ganesh h1 {
+        font-size: 20px !important; 
+    }
+    section#Paramedical .text-center.Ganesh h3 {
+        font-size: 18px !important; 
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) { 
+
+}
+@media (min-width: 1024px) and (max-width: 1200px) { 
+
+ }
+@media (min-width: 1200px) and (max-width: 1440px) {
+
+ }

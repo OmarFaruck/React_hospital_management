@@ -1,0 +1,16 @@
+.container-fluid.nios {
+    background-color: #12C1D4;
+    color: white;
+    margin-top: 15px;
+    padding: 15px 0px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+section#NIOSCourse {
+    border: 1px solid white;
+    margin: 20px 0px;
+     box-shadow: #8d8585 5px 5px 5px 5px;
+}
+section#NIOSCourse .container {
+    padding: 10px 10px;
+}

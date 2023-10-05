@@ -1,0 +1,6 @@
+section#AboutText p {
+    font-family: sans-serif;
+    padding: 25px 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.438);
+}

@@ -1,0 +1,58 @@
+ 
+section#footer button.contact {
+    border: none;
+    padding: 16px 36px;
+    background-color: #00BCD1;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 22px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+section#footer button.contact:hover {
+ 
+    background-color: #414546;
+ 
+}
+a.me-4.text-reset.active {
+    font-size: 25px;
+}
+button.Contacts { 
+    border: none;
+    padding: 9px 30px;
+    background-color: #00BCD1;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+button.Contacts:hover {  
+    background-color: #434747; 
+}
+button.Contact {
+    margin-top: 20px;
+    border: none;
+    padding: 9px 30px;
+    background-color: #00BCD1;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+}
+button.Contact:hover { 
+    background-color: #353b3b; 
+}
+a.text-reset.active {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+button.Contacts {
+    margin: 20px 0px;
+}

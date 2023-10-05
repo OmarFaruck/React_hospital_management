@@ -1,0 +1,57 @@
+img.img-fluid.images.my-auto.mx-auto{
+    height: 100% !important;
+}
+.card.mx-auto.d-block{
+    margin-left: 15px !important;
+    padding: 20px 0px;
+}
+section#SpecialitieCardSlide {
+    background-image: url(../../images/Our_Doctors/img11.png);
+    
+}
+section#SpecialitieCardSlide {
+    padding: 20px 0px;
+}
+section#SpecialitieCardSlide h1{
+    color: #034EA1;
+    padding: 15px 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+section#SpecialitieCardSlide h5.card-title{
+    text-align: center;
+}
+
+section#Specialities{
+    background-image: url(../../images/Our_Doctors/img11.png);
+}
+section#Specialities h1{
+    color: #034EA1;
+    padding: 15px 0px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) { 
+
+}
+@media (min-width: 375px) and (max-width: 425px) {
+
+}
+@media (min-width: 375px) and (max-width: 425px) { 
+
+}
+@media (min-width: 425px) and (max-width: 768px) {
+    .mx-auto.SpecialitieCard.card{
+       width: 15rem !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .mx-auto.SpecialitieCard.card{
+        width: 15rem !important;
+     }
+}
+@media (min-width: 1024px) and (max-width: 1200px) { 
+   
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+    
+}

@@ -1,0 +1,93 @@
+
+section#SideCardBer {
+    background-image: url(../../images/Our_Doctors/img11.png);
+   background-position: cover;
+   padding: 25px 0px;
+}
+
+section#SideCardBer button.Book.btn.btn-primary {
+    font-size: 12px !important;
+}
+
+.container.SideCardBer{
+    background-color: rgb(255, 255, 255) !important;
+    padding: 35px;
+}
+
+img.img-fluid {
+    height: 100% !important;
+}
+button.btn.btn-primary.btn-sm {
+    margin-right: 15px;
+    padding: 18px 13px;
+}
+.card {
+    /* position: relative; */
+    border-radius: 16px;
+    /* background: linear-gradient(180deg,#034ea1 0,#00b7ac 100%); */
+    background-clip: padding-box;
+    padding: 2px 10px 2px 2px;
+    margin-bottom: 33px;
+    transition: 1s;
+}
+button.Book.btn.btn-primary {
+    font-size: 13px !important;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+button.Book.btn.btn-primary:hover {
+  background-color: #00B7AC;
+}
+button.View.btn.btn-primary.btn-sm:hover{
+    background-color: #006CBE !important;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 375px) { 
+
+}
+@media (min-width: 375px) and (max-width: 425px) {
+    section#SideCardBer h5.card-title {
+        text-align: center;
+    }
+    section#SideCardBer p.card-text{
+        text-align: center;
+    }
+}
+@media (min-width: 375px) and (max-width: 425px) { 
+    section#SideCardBer h5.card-title {
+        text-align: center;
+    }
+    section#SideCardBer p.card-text{
+        text-align: center;
+    }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+    section#SideCardBer h5.card-title {
+        text-align: center;
+    }
+    section#SideCardBer p.card-text{
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    section#SideCardBer h5.card-title {
+        text-align: center;
+    }
+    section#SideCardBer p.card-text{
+        text-align: center;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px) { 
+    section#SideCardBer h5.card-title {
+        text-align: center;
+    }
+    section#SideCardBer p.card-text{
+        text-align: center;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+    
+}
+ 

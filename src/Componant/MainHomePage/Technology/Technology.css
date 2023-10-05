@@ -1,0 +1,36 @@
+section#Technology {
+    margin-top: 30px;
+}
+
+section#Technology h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+@media (min-width: 320px) and (max-width: 375px) { 
+
+}
+@media (min-width: 375px) and (max-width: 425px) {
+
+}
+@media (min-width: 375px) and (max-width: 425px) { 
+
+}
+@media (min-width: 425px) and (max-width: 768px) {
+    .mx-auto.Technologies.card{
+       width: 15rem !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .mx-auto.Technologies.card{
+        width: 15rem !important;
+     }
+}
+@media (min-width: 1024px) and (max-width: 1200px) { 
+   
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+    
+}

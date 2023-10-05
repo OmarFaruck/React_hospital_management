@@ -1,0 +1,20 @@
+section#Manipal {
+    background-image: url(../../images/Our_Doctors/img11.png);
+    background-color: #0C51A0;
+    padding: 70px 0px;
+}
+section#Manipal h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+section#Manipal p{
+    color: white;
+    font-family: sans-serif; 
+}
+.mainpal_img {
+    background-color: #00B7AC;
+    padding: 30px 0px;
+    border-radius: 10px;
+}
+

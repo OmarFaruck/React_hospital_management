@@ -1,0 +1,14 @@
+
+
+.font_icon{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    background-color: #81847e75;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.container.SINGIN {
+    padding: 25px 0px;
+}
