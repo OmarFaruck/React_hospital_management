@@ -1,11 +1,10 @@
-import React from 'react';
-import Image from 'react-bootstrap/Image';
-import img1 from '../../images/International/international-centers.webp'
+import React from 'react'; 
+import AboutTeamSlider from '../../MAinAboutTeamPage/AboutTeamSlider/AboutTeamSlider';
 const InternationalPages = () => {
     return (
-        <section id='InternationalPages'>
+        <section id='InternationalPages'  data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div className="container-fluid">
-            <Image src={img1} className='img-fluid mx-auto d-block' rounded />
+            <AboutTeamSlider/> 
             </div>
         </section>
     );

@@ -1,15 +1,15 @@
-import React from 'react';
-import MRILogo from '../MRILogo/MRILogo';
+import React from 'react'; 
 import AllCategory from '../AllCategory/AllCategory';
 import MRITest from '../MRITest/MRITest';
 import Frequently from '../Frequently/Frequently';
 import Related from '../Related/Related';
 import HospitalAnimation from '../../MainHospitalpages/HospitalAnimation/HospitalAnimation';
+import Slider from '../../MainHomePage/Slider/Slider';
 
 const MRI_SCAN = () => {
     return (
-        <>
-            <MRILogo/>
+        <> 
+            <Slider/>
             <AllCategory/>
             <MRITest/>
             <Frequently/>

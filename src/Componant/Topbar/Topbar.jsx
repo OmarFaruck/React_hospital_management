@@ -31,7 +31,7 @@ const handleSingOut= ()=>{
                     </div>
 
                     <div className="d-flex col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                       <div className="text-center d-flex align-items-center">
+                       <div className="text-center d-flex align-items-center m-auto">
                        <BsEnvelopeFill className='email'/>
                         <h6>omarfaruck1994@gmail.com</h6>
                        </div>
@@ -41,9 +41,9 @@ const handleSingOut= ()=>{
                     <div className="d-flex col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                         {
                             user ? (
-                                <NavLink className= "nav-link" to="/Signup" ><Button variant="secondary" onClick={handleSingOut}>SING UP</Button></NavLink>
+                                <NavLink className= "nav-link m-auto" to="/Signup" ><Button variant="secondary" onClick={handleSingOut}>SING UP</Button></NavLink>
                             ) : (
-                                <NavLink className= "nav-link" to="/SINGIN"><Button variant="primary">SING IN</Button ></NavLink>
+                                <NavLink className= "nav-link m-auto" to="/SINGIN"><Button variant="primary">SING IN</Button ></NavLink>
                             )
                         }
                        

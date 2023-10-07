@@ -7,7 +7,7 @@ const COURSES = () => {
     return (
         <section id="courses">
              <div className="container-fluid">
-                <div className="text-center"> 
+                <div className="text-center"  data-aos="zoom-in-right"> 
                     <h1 style={{color:'#16C2D5', fontFamily:'sans-serif', fontWeight:'bold', margin:'20px 0px'}}><span style={{marginRight:'15px',color:'black' }}>OUR</span>COURSES</h1> 
                     <Row className='align-items-center'>
                        <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>

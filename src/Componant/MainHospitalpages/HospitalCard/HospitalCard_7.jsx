@@ -14,7 +14,7 @@ import '../HospitalCard/HospitalCard.css'
 
 export default function App() {
     return (
-      <MDBCard style={{ maxWidth: '540px',marginBottom:'20px'}}>
+      <MDBCard style={{ maxWidth: '540px',marginBottom:'20px'}} data-aos="fade-up-right">
         <MDBRow className='g-0'>
           <MDBCol md='4'>
             <MDBCardImage src={img1} alt='...' fluid className='mx-auto img-fluid d-block'/>

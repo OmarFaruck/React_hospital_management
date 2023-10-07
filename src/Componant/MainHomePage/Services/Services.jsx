@@ -20,7 +20,7 @@ const Services = () => {
     return (
         <section id='service'>
             <div className="container-fluid">
-                <div className="text-center text">
+                <div className="text-center text"  data-aos="zoom-in">
                     <h1>Welcome To Ganesh Diagnostic & Imaging Centre!</h1>
                     <p>Your Health is our top priority. Browse through our most desired tests that ensure your good health.</p>
                     <h2>Our Services</h2> 

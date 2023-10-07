@@ -143,8 +143,8 @@ const Footer = () => {
               <h6>
                 <MDBIcon color='secondary' icon='home' className='me-2' />
                  <div className="d-flex">
-                    <h5 style={{padding:'15px'}}>Address:</h5>
-                    <p>Rasulpur Km.char chad mosjid near azimpur dhaka-1210</p>
+                    <h5>Address:</h5>
+                    <h6 style={{margin:'auto'}}>Rasulpur Km.char chad mosjid near azimpur dhaka-1210</h6>
 
                  </div>
               </h6>
@@ -160,7 +160,7 @@ const Footer = () => {
                 <MDBIcon color='secondary' icon='envelope' className='me-3' />
                 <div className="d-flex">
                     <h5>Email:</h5>
-                    <p style={{marginLeft:'30px'}}>omarfaruck1994@gmial.com</p> 
+                    <p style={{margin:'auto'}}>omarfaruck1994@gmial.com</p> 
 
                  </div>
               </h6>

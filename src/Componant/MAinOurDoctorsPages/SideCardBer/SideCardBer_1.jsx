@@ -11,9 +11,11 @@ import {
 import img1 from '../../images/Our_Doctors/img1.png'
 import '../SideCardBer/SideCardBer.css'
 import Button from 'react-bootstrap/esm/Button';
+
 export default function App() {
     return (
-      <MDBCard style={{ maxWidth: '540px',marginBottom:'20px'}}>
+      <div data-aos="fade-up-right">
+      <MDBCard style={{ maxWidth: '540px',marginBottom:'20px'}} >
         <MDBRow className='g-0'>
           <MDBCol md='4'>
             <MDBCardImage src={img1} alt='...' fluid />
@@ -35,5 +37,6 @@ export default function App() {
           </MDBCol>
         </MDBRow>
       </MDBCard>
+      </div>
     );
   }

@@ -32,6 +32,7 @@ import FaEnvelope from '../FaEnvelopePage/FaEnvelope';
     messegediv.innerHTML='Registered User success';  
      
   }
+  
   return (
     <section id='SINGIN' style={{backgroundImage: 'url(https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp)'}}> 
     <div className="container SINGIN">

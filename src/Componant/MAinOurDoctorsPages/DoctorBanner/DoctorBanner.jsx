@@ -1,17 +1,18 @@
-import React from 'react';
-import Image from 'react-bootstrap/Image';
-import img1 from '../../images/Our_Doctors/doctors.webp'
+import React from 'react'; 
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
 import Container from 'react-bootstrap/esm/Container';
 import Form from 'react-bootstrap/Form';
 import '../DoctorBanner/DoctorBanner.css'
+import AboutTeamSlider from '../../MAinAboutTeamPage/AboutTeamSlider/AboutTeamSlider';
 
 const DoctorBanner = () => {
     return (
-        <section id='DoctorBanner'>
+        <section id='DoctorBanner' data-aos="zoom-in">
             <div className="container-fluid">
-            <Image src={img1} className='mx-auto img-fluid d-block' rounded />
+
+            <AboutTeamSlider/> 
+            
           <Container style={{padding:'30px 0px'}}>
           <Row>
                 <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>

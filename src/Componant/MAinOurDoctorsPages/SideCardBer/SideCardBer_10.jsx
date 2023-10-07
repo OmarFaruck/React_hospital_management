@@ -14,7 +14,7 @@ import '../SideCardBer/SideCardBer.css'
 import Button from 'react-bootstrap/esm/Button';
 export default function App() {
     return (
-      <MDBCard style={{ maxWidth: '540px',marginBottom:'20px' }}>
+      <MDBCard style={{ maxWidth: '540px',marginBottom:'20px' }} data-aos="zoom-in-up">
         <MDBRow className='g-0'>
           <MDBCol md='4'>
             <MDBCardImage src={img2} alt='...' fluid />

@@ -11,9 +11,11 @@ import {
 import img2 from '../../images/Our_Doctors/img2e.jpeg'
 import '../SideCardBer/SideCardBer.css'
 import Button from 'react-bootstrap/esm/Button';
+import 'aos/dist/aos.css';
+
 export default function App() {
     return (
-      <MDBCard style={{ maxWidth: '540px',marginBottom:'20px'}}>
+      <MDBCard style={{ maxWidth: '540px',marginBottom:'20px'}} data-aos="fade-up-left">
         <MDBRow className='g-0'>
           <MDBCol md='4'>
             <MDBCardImage src={img2} alt='...' fluid />

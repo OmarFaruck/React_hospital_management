@@ -5,7 +5,7 @@ import '../Card/Card.css'
 const Card_4 = () => {
     return (
         <>
-            <Card style={{ width: '13rem' }} className='mx-auto mb-3 cards'>
+            <Card style={{ width: '13rem' }} className='mx-auto mb-3 cards fade-left' data-aos="fade-up-left">
                 <Card.Img variant="top" src={card4} />
                 <Card.Body>
                     <Card.Title style={{textAlign:'center'}}> X-Rays </Card.Title>

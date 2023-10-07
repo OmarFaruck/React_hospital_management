@@ -6,7 +6,7 @@ import Client from './Client/Client';
 const AboutUsPage = () => {
     return (
         <section id='AboutUsPage'>
-          <div className="text-center">
+          <div className="text-center" data-aos="zoom-in-right">
             <h1>About Us</h1>
           </div>
           <Aboutimg/>

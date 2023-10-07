@@ -22,6 +22,7 @@ import SINGIN from './Componant/SINGIN/SINGIN';
 import Signup from './Componant/Signup/Signup';
 import RequireAuth from './Componant/RequireAuth/RequireAuth';
 import ErrorPage from './Componant/ErrorPage/ErrorPage';
+ 
 function App() {
   return (
     <div className="App">
@@ -29,15 +30,10 @@ function App() {
       <Header/>
 
       <Routes>
-        <Route path='/' element={
+        <Route path='/' element={ <HomePage/> }/> 
 
-         <RequireAuth>
-            <HomePage/>
-         </RequireAuth>
-       
-        
-        }/> 
-        <Route path='/about_us' element={
+        <Route path='/about_us' target='_blank' element={
+
         <RequireAuth>
             <AboutUsPages/>
         </RequireAuth>
@@ -51,13 +47,8 @@ function App() {
        
 
         }/>  
-        <Route path='/Education' element={
-         <RequireAuth>
-           <Education/>
-         </RequireAuth>
-       
+        <Route path='/Education' element={<Education/> }/>  
 
-        }/>  
         <Route path='/Ambulance' element={
          <RequireAuth>
           <AmbulancePage/>
@@ -68,42 +59,26 @@ function App() {
         <Route path='/MRI_SCANS' element={
          <RequireAuth>
            <MRI_SCAN/>
-         </RequireAuth>
-        
-
+         </RequireAuth> 
         }/>  
-        <Route path='/Book_Appointment' element={
-            <RequireAuth>
-              <MAinBookAppointment/>
-            </RequireAuth>
-        
 
-        }/>  
+        <Route path='/Book_Appointment' element={ <MAinBookAppointment/>}/>  
+
         <Route path='/Packeges' element={
         <RequireAuth>
            <Mainpackeg/>
         </RequireAuth> 
         }/>  
 
-        <Route path='/Our_Doctors' element={ 
-          < RequireAuth>
-           <OurDoctor/>
-          </RequireAuth> 
-        }/>  
-        <Route path='/Specialities' element={
+        <Route path='/Our_Doctors' element={ <OurDoctor/>}/>  
+ 
+        <Route path='/Specialities' element={ <MainSpecialitie/> }/>  
 
-         <RequireAuth>
-          <MainSpecialitie/>
-         </RequireAuth> 
-        }/>  
-
-        <Route path='/Our_Hospital' element={
-            <RequireAuth>
-              <MainHospital/>
-            </RequireAuth> 
-           }/>  
+  
+        <Route path='/Our_Hospital' element={ <MainHospital/>}/>  
         
         <Route path='/International' element={ 
+
          <RequireAuth>
               <InternationalMainPages/>
          </RequireAuth>

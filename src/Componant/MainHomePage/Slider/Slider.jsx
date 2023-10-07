@@ -12,36 +12,36 @@ import '../Slider/Slider.css'
 const Slider = () => {
     return (
         <>
-            <Carousel fade slide>
+            <Carousel data-aos="flip-right">
       <Carousel.Item> 
-        <img src={slider1} className="img-fluid mx-auto logo" alt=''/> 
+        <img src={slider1} className="img-fluid mx-auto banners" alt=''/> 
       </Carousel.Item>
       <Carousel.Item>
-    <img src={slider2} className="img-fluid mx-auto logo" alt=''/>
+    <img src={slider2} className="img-fluid mx-auto banners" alt=''/>
         
       </Carousel.Item>
       <Carousel.Item>
-    <img src={slider3 } className="img-fluid mx-auto logo" alt=''/>
+    <img src={slider3 } className="img-fluid mx-auto banners" alt=''/>
         
       </Carousel.Item>
       <Carousel.Item>
-    <img src={slider4 } className="img-fluid mx-auto logo" alt=''/>
+    <img src={slider4 } className="img-fluid mx-auto banners" alt=''/>
          
       </Carousel.Item>
       <Carousel.Item>
-    <img src={slider5 } className="img-fluid mx-auto logo" alt=''/>
+    <img src={slider5 } className="img-fluid mx-auto banners" alt=''/>
          
       </Carousel.Item>
       <Carousel.Item>
-    <img src={slider6 } className="img-fluid mx-auto logo" alt=''/>
+    <img src={slider6 } className="img-fluid mx-auto banners" alt=''/>
         
       </Carousel.Item>
       <Carousel.Item>
-    <img src={slider7 } className="img-fluid mx-auto logo" alt=''/>
+    <img src={slider7 } className="img-fluid mx-auto banners" alt=''/>
         
       </Carousel.Item>
       <Carousel.Item>
-    <img src={slider8 } className="img-fluid mx-auto logo" alt=''/>
+    <img src={slider8 } className="img-fluid mx-auto banners" alt=''/>
          
       </Carousel.Item>
     </Carousel>

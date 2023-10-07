@@ -1,7 +1,8 @@
 
 section#patient_blog {
-    background-color: rgba(0, 0, 0, 0.349) !important;
     background-image: url(../../images/blog/Hospitality.webp);
+    background-color: rgba(0, 0, 0, 0.349) !important;
+   
     
 }
 section#patient_blog::before {

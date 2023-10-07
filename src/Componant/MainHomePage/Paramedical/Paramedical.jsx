@@ -17,15 +17,15 @@ const Paramedical = () => {
                  <Row>
                     <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
                        <div className="mt-4 container">
-                       <div className="text-center Ganesh">
+                       <div className="text-center Ganesh" data-aos="flip-left">
                             <h1>Ganesh Paramedical College</h1>
                             <span><hr /></span>
                             <h3>Affiliated to Singhania University & <br />NIOS & Bir Tikendrajit University</h3>
                         </div>
                         <Row className='mt-4'>
                         <Col xs={12} sm={12} md={6} lg={4} xl={4} xxl={4}>
-                        <div className="text-center">
-                        <Image src={img1} className='img-fluid mx-auto d-block my-auto' rounded />
+                        <div className="text-center" data-aos="flip-up">
+                        <Image src={img1} className='img-fluid mx-auto d-block my-auto' rounded/>
                         <h2>Students</h2>
                         {/* <h3>2500+</h3> */}
                         <CountUp start={0} end={2500} delay={0}>

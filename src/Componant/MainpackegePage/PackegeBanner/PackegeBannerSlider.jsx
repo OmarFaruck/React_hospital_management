@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
  const PackegeBannerSlider = () => {
     return (
         <>
-              <Carousel data-bs-theme="dark">
+              <Carousel data-aos="flip-up">
       <Carousel.Item>
         <img
           className="d-block w-100"

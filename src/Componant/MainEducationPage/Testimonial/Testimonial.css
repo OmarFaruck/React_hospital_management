@@ -3,10 +3,15 @@ section#Testimonial {
     padding: 40px 0px;
     margin: 20px 0px;
 }
-section#Testimonial h1 ,h3 {
+section#Testimonial h1{
     color: white;
     font-family: sans-serif;
     font-weight: 600;
+}
+section#Testimonial h3 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
 }
 section#Testimonial p {
     color: white;

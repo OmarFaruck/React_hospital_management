@@ -18,7 +18,7 @@ const SideCardBer = () => {
     return (
         <section id='SideCardBer'>
             <div className="container SideCardBer">
-                <div className="text-center">
+                <div className="text-center"  data-aos="fade-up-right">
                     <h1 style={{color:'#034FA3', padding:'15px 0px', fontFamily:'sans-serif', fontWeight:'bold'}}>Doctors at Manipal Hospitals</h1>
                 </div>
                 <Row>

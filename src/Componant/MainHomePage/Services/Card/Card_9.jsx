@@ -5,7 +5,7 @@ import '../Card/Card.css'
 const Card_9 = () => {
     return (
         <>
-            <Card style={{ width: '13rem' }} className='mx-auto mb-3 cards'>
+            <Card style={{ width: '13rem' }} className='mx-auto mb-3 cards' data-aos="zoom-in">
                 <Card.Img variant="top" src={card9} />
                 <Card.Body>
                     <Card.Title style={{textAlign:'center'}}>  Pathology Tests  </Card.Title>

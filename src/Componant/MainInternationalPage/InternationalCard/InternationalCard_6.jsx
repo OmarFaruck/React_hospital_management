@@ -6,7 +6,7 @@ import '../InternationalCard/InternationalCard.css'
 const InternationalCard_6 = () => {
     return (
         <>
-             <Card style={{ width: '20rem' }} className='mx-auto'>
+             <Card style={{ width: '20rem' }} className='mx-auto' data-aos="zoom-in-up">
       <Card.Img variant="top" src={img1} className='img-fluid mx-auto'/>
       <Card.Body>
         <Card.Title className='text-center'>Malawi</Card.Title> 
